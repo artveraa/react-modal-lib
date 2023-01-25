@@ -1,10 +1,12 @@
 # react-modal
 
 
-1 - npm i artvera-react-modal
+1 - ```npm i artvera-react-modal```
 
-2 - Use :
+2 - ```import {Modal} from "artvera-react-modal";```
 
+3 - use :
+```
 const [showModal, setShowModal] = useState(false);
 
 <Modal onClose={() => setShowModal(false)} show={showModal}>
@@ -12,3 +14,4 @@ const [showModal, setShowModal] = useState(false);
     Employee Created!
   </p>
 </Modal>
+```
